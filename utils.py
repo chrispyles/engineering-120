@@ -1,4 +1,4 @@
- from datascience import *
+from datascience import *
 import numpy as np
 from tkinter import *
 
