@@ -33,7 +33,7 @@ def repeat(x, n):
 	Args:
 	x - value to be repeated
 	n - number of times to repear'''
-	return [x for i in range(n)]
+	return [x for _ in range(n)]
 
 
 
