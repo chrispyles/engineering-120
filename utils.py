@@ -8,7 +8,7 @@ from tkinter import *
 def bid_ask(buy_orders, sell_orders):
 	'''Returns the bid and ask prices from lists of limit buy and limit sell orders
 
-	Note that this returns a 2-tuple of values, so define variables like:
+	Note that this returns a 2-tuple of values, so define variables as:
 		bid_price, ask_price = bid_ask(buy_orders, sell_orders)
 
 	Args:
