@@ -8,7 +8,7 @@ class Problem():
 		self.find = find
 
 	def __repr__(self):
-		result = 'NPER   |   RATE   |   PV   |   PMT   |   FV'
+		result = 'NPER   |   RATE   |   PV   |   PMT   |   FV\n'
 		result += f'{self.nper}   |   {self.rate}   |   {self.pv}   |   {self.pmt}   |   {self.fv}'
 		return result
 
